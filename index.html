@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External CSS</title>
+    <link rel="stylesheet" href="styles/MyStyleSheet1.css">
+</head>
+<body>
+    <header><h1>Inclusion of CSS in HTML</h1></header>
+    <nav><a href="#">Home</a><a href="#">About Us</a>
+        <a href="#">Contact Us</a><a href="#">Login/SignUp</a></nav>
+    <main><section><h2>Introduction</h2>
+        <p>There are four ways to associate styles with the HTML document.
+            Most commonly used methods are Inline CSS and External CSS.</p></section>
+    <article><h2 style="color: red;">Four ways to associate styles with the HTML</h2>
+        <ul><li>Internal/Embedded CSS</li><li>Inline CSS</li>
+            <li>External CSS</li><li>External CSS using CDN</li></ul></article>
+    <details><summary>Internal/Embedded CSS</summary>
+        <p>We can put the CSS rules into an HTML document using the &lt;style&gt; element.
+            This &lt;style&gt; element is placed inside the &lt;head&gt; ... &lt;/head&gt;
+            tags. Rules defined within the &lt;style&gt; element inside the &lt;head&gt;
+            element will only be applied to a single web document, but to all the elements,
+            and also to all the instances, that is, all the occurrences of the specified
+            element available in the specified web document.</p></details>
+    <details><summary style="color: blueviolet; font-weight: bold;">Inline CSS</summary>
+        <p style="color: blue;">We can use the style attribute of any HTML element to
+            define style rules. These rules will be applied to a particular element only.</p>
+    </details>
+    <details><summary style="color: blue; font-weight: bold;">External CSS</summary>
+        <p style="color: blueviolet;">The &lt;link&gt; element is used to include an external
+            stylesheet file in the HTML document. An external style sheet is a separate text
+            file with .css extension. We define all the style rules (CSS) within this text
+            file and then we apply it to HTML document(s) using the &lt;link&gt; element.</p>
+    </details>
+    </main>
+    <footer><h3>Inclusion of CSS</h3>
+        <p>&copy; Copyright Protected 2026-2027</p></footer>
+</body>
+</html>
