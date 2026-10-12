@@ -1,0 +1,21 @@
+body {
+    background-color: powderblue;
+}
+div {
+    width: 75%;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 20px;
+}
+h1 {
+    color: blue;
+}
+h2 {
+    color: rgb(0, 50, 100);
+}
+h1, h2 {
+    text-align: center;
+}
+p {
+    color: #00008b;
+}
